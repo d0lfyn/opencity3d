@@ -1,6 +1,6 @@
 # opencity3d
 
-This project provides a standard for designing and sharing 3D printable modular cities. It encompasses considerations of scale, physical connectors, and best practices.
+This project provides a standard for creating, sharing, and printing modular 3D models of urban environments. It encompasses considerations of scale, physical connectors, and best practices.
 
 ## Objectives
 
