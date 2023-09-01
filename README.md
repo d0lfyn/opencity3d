@@ -1,32 +1,36 @@
 # opencity3d
 
-This project aims to provide a common standard for designing and sharing 3D models of cities that can be assembled with the aid of 3D printers. This standard specifies a grid format as well as compatible adapters for buildings, lots, and various tile-based infrastructure.
+This project provides a standard for designing and sharing 3D printable modular cities. It encompasses considerations of scale, physical connectors, and best practices.
 
-The main objectives of this project are:
+## Objectives
 
-- To promote the use of 3D printing as a tool for enthusiasts and amateur hobbyists, with potential applications in urban planning, design, education, and research.
-- To foster collaboration and exchange among researchers, practitioners, and enthusiasts who are interested in 3D printing of cities.
-- To encourage the adoption of a standard format for 3d printing cities, thereby promoting reusability and interoperability in the craft.
+- **Build a platform**, by facilitating reuse and interoperability in the design and printing of hobby kits.
+- **Nurture a community**, by enabling collaboration and exchange among those interested in 3D printing cities.
+- **Craft cities**, by using 3D technologies to bring concepts into reality.
 
 ## How to use the standard
 
-The standard consists of two main components: a collection of base asset and printer configuration files, and a wiki guide to city modeling and printing.
+The standard is maintained in version, each consisting of several components: documentation, printable connectors, printer configurations, and a wiki knowledge base.
 
-- The base assets serve as connectors and adapters for city modeling components. Printer configuration files are also provided as a starting point for printing.
-- The wiki guide documents considerations and lessons learned in city modeling and printing.
+- Documentation can be found in (VERSION)/documentation. Therein are specifications of scale and connector design.
+- Printable connectors can be found in (VERSION)/prints. Therein are files for grids, building bases, and adapters.
+- Printer configurations can be found in (VERSION)/printers. Therein are presets for various printers.
+- The wiki knowledge base documents lessons learned in city modeling and printing.
 
-To use the standard, you need designs to print. You can either create your own files from scratch or use existing ones from public and/or private source. Choose appropriate adapters to fit the designs at scale. Next, prepare the files for 3D printing using any 3D modeling software and any printer (results may vary depending on the specifications of each printer).
+To use the standard, you need designs to print, as well as access to a 3D printer. You can either create your own files from scratch or use existing ones from public and/or private source. Given that you have designs on hand:
+
+1. Scale the designs per the documentation version of your choice, found in (VERSION)/documentation.
+2. From (VERSION)/prints, choose appropriately-sized bases for your scaled designs, and in your choice of 3d modeling software, merge the respective mesh underneath each design.
+3. Also from (VERSION)/prints, choose adapters corresponding to each base, as well as a grid large enough to mount the building and adapter assemblies for your designs.
+4. Prepare the files for 3D printing using any 3D printing software. If available, choose printer configurations from (VERSION)/printers to possibly streamline the process.
+5. Print. Experimentation will likely be required, as tolerances depend on each printer setup. The standard minimises wasted resources, inasmuch as only adapters need to be re-printed.
 
 ## How to contribute to the project
 
-This project is open-source and welcomes contributions from anyone who is interested in 3D printing of cities. There are several ways you can contribute to the project:
+This project is open-source and welcomes contributions from anyone who is interested in 3D printing cities. There are several ways you can contribute to the project:
 
 - You can report issues or suggest enhancements on the GitHub issue tracker.
-- You can submit pull requests with code or documentation changes on the GitHub repository.
-- You can share your feedback or questions on the GitHub discussions forum.
-- You can join the community chat on Simtropolis.
-
-Please read the contributing guidelines before making any contribution.
+- You can join the community chat with feedback, questions, gallery submissions, printer configurations, &c. on the GitHub Discussions forum.
 
 ## License
 
