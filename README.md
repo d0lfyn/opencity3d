@@ -1,4 +1,4 @@
-[<img src="https://github.com/d0lfyn/opencity3d/assets/13762069/c5e1ff28-3b03-4a6d-b00c-e17b2415e27f" width="128"/>](https://github.com/d0lfyn/opencity3d/assets/13762069/c5e1ff28-3b03-4a6d-b00c-e17b2415e27f)
+![banner](https://github.com/d0lfyn/opencity3d/assets/13762069/26e169b9-2794-45e0-92b4-4599e959dc65)
 
 # opencity3d
 
