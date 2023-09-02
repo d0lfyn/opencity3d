@@ -1,3 +1,5 @@
+[<img src="https://github.com/d0lfyn/opencity3d/assets/13762069/c5e1ff28-3b03-4a6d-b00c-e17b2415e27f" width="128"/>](https://github.com/d0lfyn/opencity3d/assets/13762069/c5e1ff28-3b03-4a6d-b00c-e17b2415e27f)
+
 # opencity3d
 
 This project provides a standard for creating, sharing, and printing modular 3D models of urban environments. It encompasses considerations of scale, physical connectors, and best practices.
