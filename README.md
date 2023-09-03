@@ -12,18 +12,17 @@ This project provides a standard for creating, sharing, and printing modular 3D 
 
 ## How to use the standard
 
-The standard is maintained in versions, each consisting of several components: specifications, printable connectors, and printer configurations. All of this is documented in the wiki knowledge base.
+The standard is maintained in versions, each consisting of printable connectors. All of this is documented in the wiki knowledge base.
 
-- Specifications can be found in (VERSION)/specs. Therein are documents of scale and physical connector design.
-- Printable connectors can be found in (VERSION)/prints. Therein are files for grids, building bases, and adapters.
+- Printable connectors can be found in (VERSION)/prints. Therein are files for adapters, bases, and grids.
 - The wiki knowledge base documents the standards project.
 
 To use the standard, you need designs to print, as well as access to a 3D printer. You can either create your own files from scratch or use existing ones from public and/or private source. Given that you have designs on hand:
 
-1. Scale the designs per the spec version of your choice, found in (VERSION)/specs.
+1. Scale the designs per the standard version of your choice (e.g. 500:1 for the 500 standard).
 2. From (VERSION)/prints, choose appropriately-sized bases for your scaled designs, and in your choice of 3d modeling software, merge the respective mesh underneath each design.
 3. Also from (VERSION)/prints, choose adapters corresponding to each base, as well as a grid large enough to mount the building and adapter assemblies for your designs.
-4. Prepare the files for 3D printing using any 3D printing software. If available, choose printer configurations from (VERSION)/printers to possibly streamline the process.
+4. Prepare the files for 3D printing using any 3D printing software.
 5. Print. Experimentation will likely be required, as tolerances depend on each printer setup. The standard minimises wasted resources, inasmuch as only adapters need to be re-printed.
 
 Detailed instructions can be found in [the wiki](https://github.com/d0lfyn/opencity3d/wiki/How-to-use-the-oc3d-standard-(illustrated-guide)).
