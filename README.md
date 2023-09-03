@@ -16,7 +16,6 @@ The standard is maintained in versions, each consisting of several components: s
 
 - Specifications can be found in (VERSION)/specs. Therein are documents of scale and physical connector design.
 - Printable connectors can be found in (VERSION)/prints. Therein are files for grids, building bases, and adapters.
-- Printer configurations can be found in (VERSION)/printers. Therein are presets for various printers.
 - The wiki knowledge base documents the standards project.
 
 To use the standard, you need designs to print, as well as access to a 3D printer. You can either create your own files from scratch or use existing ones from public and/or private source. Given that you have designs on hand:
@@ -26,6 +25,8 @@ To use the standard, you need designs to print, as well as access to a 3D printe
 3. Also from (VERSION)/prints, choose adapters corresponding to each base, as well as a grid large enough to mount the building and adapter assemblies for your designs.
 4. Prepare the files for 3D printing using any 3D printing software. If available, choose printer configurations from (VERSION)/printers to possibly streamline the process.
 5. Print. Experimentation will likely be required, as tolerances depend on each printer setup. The standard minimises wasted resources, inasmuch as only adapters need to be re-printed.
+
+Detailed instructions can be found in [the wiki](https://github.com/d0lfyn/opencity3d/wiki/How-to-use-the-oc3d-standard-(illustrated-guide)).
 
 ## How to contribute to the project
 
