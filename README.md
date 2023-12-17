@@ -12,18 +12,18 @@ This project provides a standard for creating, sharing, and printing modular 3D 
 
 ## How to use the standard
 
-The standard is maintained in versions, each consisting of printable connectors. All of this is documented in the wiki knowledge base.
+The standard consists of printable connectors that are documented in the wiki knowledge base.
 
-- Printable connectors can be found in (VERSION)/prints. Therein are files for adapters, bases, and grids.
+- Printable connectors can be found in /bases. Currently, these are the only files that are open-sourced. Other components may be released, once tolerances have been tested.
 - The wiki knowledge base documents the standards project.
 
-To use the standard, you need designs to print, as well as access to a 3D printer. You can either create your own files from scratch or use existing ones from public and/or private source. Given that you have designs on hand:
+To use the standard, you need designs to print, as well as access to a 3D printer. You can either create your own files from scratch or use existing ones from public and/or private source. Given that you have a design on hand:
 
-1. Scale the designs per the standard version of your choice (e.g. 500:1 for the 500 standard).
-2. From (VERSION)/prints, choose appropriately-sized bases for your scaled designs, and in your choice of 3d modeling software, merge the respective mesh underneath each design.
-3. Also from (VERSION)/prints, choose adapters corresponding to each base, as well as a grid large enough to mount the building and adapter assemblies for your designs.
-4. Prepare the files for 3D printing using any 3D printing software.
-5. Print. Experimentation will likely be required, as tolerances depend on each printer setup. The standard minimises wasted resources, inasmuch as only adapters need to be re-printed.
+1. Scale the design appropriately.
+2. From /bases, choose an appropriately-sized base for your scaled designs, and in your choice of 3d modeling software, merge the respective mesh underneath the design.
+3. Prepare the file for 3D printing using any 3D printing software.
+4. Print.
+5. Connect the printed product to an OC3D grid, using the appropriate OC3D adapter.
 
 Detailed instructions can be found in [the wiki](https://github.com/d0lfyn/opencity3d/wiki/How-to-use-the-oc3d-standard-(illustrated-guide)).
 
